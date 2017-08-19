@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Firewall - Zero Net</title>
+    <link rel="stylesheet" href="firewall.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,600" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function() {
+  $( '.dropdown' ).hover(
+      function(){
+          $(this).children('.sub-menu').slideDown(200);
+      },
+      function(){
+          $(this).children('.sub-menu').slideUp(200);
+      }
+  );
+}); // end ready
+    </script>
+  </head>
+
+  <header>
+    <nav>
+      <ul>
+        <li class='title'><a href="index.html">Zero Net</a></li>
+      </ul>
+        <ul class='links'>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="biblio.html">Bibliography</a></li>
+            <li class="dropdown">
+                <a href="#">Types of Security</a>
+                <ul class="sub-menu">
+                    <li><a href="firewall.html">Firewall</a></li>
+                    <li><a href="password.html">Passwords</a></li>
+                    <li><a href="packet.html">Packet Switching</a></li>
+                    <li><a href="biometric.html">Biometric Devices</a></li>
+                    <li><a href="encryption.html">Encryption</a></li>
+            </li>
+        </ul>
+    </nav>
+
+  </header>
+
+
+<body>
+  <p>
+    <div>
+      <a href="https://www.kaspersky.com.au/"><img class='advert' src="img/Manage and your computer.jpg"></a>
+    </div>
+    <div class='paragraph'><span class='main-sub'>What are firewalls?</span><br>
+      A firewall is basically a network security system that uses rules to control incoming and outgoing network traffic. It essentially acts as a barrier between a trusted network and an untrusted network to provide protection from hackers, viruses and worms. The only traffic that is allowed into the network is determined by the firewall’s policy.</div>
+<div class='border'></div>
+<img class='image' src="img/Firewall-–-Basic-concepts.jpg">
+
+
+<div class='paragraph'><span class='main-sub'>Why are firewalls important?</span><br>
+  With the ability to sift through data and block what the user has set the firewall to, you are protected from the infection of viruses without being aware of it. This keeps your private information, identity, and even customers safe. No single product or service will provide with full security but with firewalls, it fills the cornerstones of any network security.</div>
+
+<div class='paragraph'><span class='main-sub'>Types of firewalls? </span></div>
+
+<img class='image' src="img/firewall-670x335.jpg">
+<div class='paragraph'><span>Hardware firewalls:</span> These types of firewalls are usually purchased as a stand-alone product and are typically found in broadband routers. They usually have a pre-installed software and an operating system so malware based on windows or iOS cannot target them. It requires little to no configuration to be effective which makes it suitable for computers on a local network. This type of firewall uses packet filtering to determine the source of which a packet is from and whether it is to be forwarded or dropped depending on the set rules of the user.</div>
+<div class='border'></div>
+
+<img class='image' src="img/Hardware-firewall-WatchGuard-XTM-2Series.jpg">
+<div class='paragraph'><span>Software firewalls:</span> These firewalls are installed on the computer with options to customise the protection and control features. It protects your computer from outside attempts to try and gain access to your computer as well as from trojan programs and e-mail worms. A combination of port-filtering, stateful packet inspection and application level filtering is used to do this.
+Port-filtering is used to inspect packets that are transferred between computers and the internet. If forwards or drops the packet depending on the firewall protocols. Stateful packet inspection records all connections passing through this stage to ensure which packet is part of a new connection or an existing connection. If a packet does not match an existing connection, it is evaluated according to a new rule set for a new connection. Application-layer firewalls has the ability to block malware, certain websites, and recognise when protocols are being misused. If the firewall detects a connection that is not contained in the set rules, it prompts the user to accept or reject the connection. </div>
+<div class='border'></div>
+
+<div class='paragraph'><span class='main-sub'>Conclusion</span><br>
+  The role of firewalls has become an amenity in network security due to the many advantages it brings. It keeps information and resources safe on the internet as well as blocking out malicious data. While a firewall may not be able to dwell into defense-in-depth security, it still offers essential protection as well logging and inspection functions.
+</div>
+
+  </p>
+</body>
+<html>

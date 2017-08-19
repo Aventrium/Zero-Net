@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Packet-Switching - Zero Net</title>
+    <link rel="stylesheet" href="firewall.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,600" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function() {
+  $( '.dropdown' ).hover(
+      function(){
+          $(this).children('.sub-menu').slideDown(200);
+      },
+      function(){
+          $(this).children('.sub-menu').slideUp(200);
+      }
+  );
+}); // end ready
+    </script>
+  </head>
+
+  <header>
+    <nav>
+      <ul>
+        <li class='title'><a href="index.html">Zero Net</a></li>
+      </ul>
+        <ul class='links'>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="biblio.html">Bibliography</a></li>
+            <li class="dropdown">
+                <a href="#">Types of Security</a>
+                <ul class="sub-menu">
+                    <li><a href="firewall.html">Firewall</a></li>
+                    <li><a href="password.html">Passwords</a></li>
+                    <li><a href="packet.html">Packet Switching</a></li>
+                    <li><a href="biometric.html">Biometric Devices</a></li>
+                    <li><a href="encryption.html">Encryption</a></li>
+            </li>
+        </ul>
+    </nav>
+
+  </header>
+
+  <body>
+
+
+    <p>
+      <div>
+        <a href="https://www.kaspersky.com.au/"><img class='advert' src="img/Manage and your computer.jpg"></a>
+      </div>
+
+      <div class='paragraph'><span class='main-sub'>What is packet switching?</span><br>
+        Packet-switching is when small packets of data are broken up from the original source of data and are sent through a network protocol such as frame relay, IP, and X.25 to reach its destination. The data is travelled through network switches and routers and then reassembled at the end of its destination. How the data recognises from other packets is through an address that each packet tagged with. Using these address, network switches and routers determine the best route for the packet to be transferred. It identifies where it is sent from as well as the recipient. When data is broken into packets, it allows for the same data path to be shared amongst many users making receiving and sending data efficient. </div>
+<div class='border'></div>
+<img class='image' src="img/Datagram or Connectionless Packet Switching4.png">
+
+
+<div class='paragraph'><span class='main-sub'>Importance of packet switching</span><br>
+  This method of sending data over the internet has been developed to overcome the weaknesses of circuit switching. These weaknesses include the inefficiency to send small messages, lost data and data being more prone to noise and errors. If data is lost on a circuit switching network, it is gone for good while on the other hand, packet switching networks are able to resend data.
+</div>
+
+<div class='paragraph'><span class='main-sub'>Types of packet switching</span></div>
+
+<img class='image' src="img/Figure-4-packet-loss-probability-on-the-vertical-axis-versus-load-on-the-horizontal.png">
+<div class='paragraph'><span>Vertical Circuit packet switching:</span>A single route sends packets between the sender and receiver. There is a setup, data transfer and tear down phase just like circuit switching networks. This type of network is typically implemented in the data link layer.
+</div>
+<div class='border'></div>
+
+<img class='image' src="img/Comparison-among-Circuit-Switching-Packet-Switching-and-Virtual-Circuit-Packet-Switching5.jpg">
+<div class='paragraph'><span>Datagram Packet-Switching: </span>  Packets in these types of networks are transmitted without regards to other packets. Each packet is treated as an individual and independent transmission and has a source and destination. For example, if four packets belong to the same source, they may travel via different paths to reach its destination. This can mean that packets can arrive in a different order from the initial order that it was sent.
+</div>
+<div class='border'></div>
+
+<div class='paragraph'><span class='main-sub'>Advantages of packet switching</span><br>
+The use of network bandwidth is used more efficiently due to the flexibility in sending packets of shared links.  Packet switching networks are cheap to build since less equipment is needed. It is also reliable since the receiving computer can automatically request for a packet to be resent if a packet is missing as well as to reroute the packet if any node is to fail.</div>
+<img class='image' src="img/packet_switched_network3.jpg">
+
+<div class='paragraph'><span class='main-sub'>Conclusion</span><br>
+  The divide of data into packets has enabled data transportation to utilise the network channel efficiently. Multiple users are able to send/receive data without one’s packet affecting another.</div>
+    </p>
+
+  </body>
+
+  </html>
