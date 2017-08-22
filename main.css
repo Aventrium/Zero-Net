@@ -385,3 +385,10 @@ a {
 .btn-12:active {
   top: 2px;
 }
+
+.advert {
+  width: 75%;
+  margin-left: 160px;
+  height: 400px;
+  margin-bottom: -120px;
+}
